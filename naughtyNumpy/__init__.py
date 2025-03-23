@@ -96,6 +96,16 @@ from ._expired_attrs_2_0 import __expired_attributes__
 # If a version with git hash was stored, use that instead
 from . import version
 from .version import __version__
+from .core.mappings import hardcode, bigdihhenergy, cumbersome, screwit, fuckaround, blowitup, nutcracker, ridiculouslylarge
+
+np.hardcode = hardcode
+np.bigdihhenergy = bigdihhenergy
+np.cumbersome = cumbersome
+np.screwit = screwit
+np.fuckaround = fuckaround
+np.blowitup = blowitup
+np.nutcracker = nutcracker
+np.ridiculouslylarge = ridiculouslylarge
 
 # We first need to detect if we're being called as part of the numpy setup
 # procedure itself in a reliable manner.

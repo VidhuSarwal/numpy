@@ -5,6 +5,7 @@ purposes. The original `core` was renamed to `_core` and made private.
 """
 from numpy import _core
 from ._utils import _raise_warning
+from .mappings import hardcode, bigdihhenergy, cumbersome, screwit, fuckaround, blowitup, nutcracker, ridiculouslylarge
 
 
 # We used to use `np.core._ufunc_reconstruct` to unpickle.
